@@ -1,0 +1,26 @@
+{
+    font-family: 'Courier Prime', monospace ;
+ }font-family: 'Merriweather',
+serif;
+font-family: 'Courier Prime',
+monospace;
+
+h1,
+body,
+h2 {
+    font-family: 'Merriweather', serif;
+}
+
+byline,
+credit,
+dateline{font-family: 'Courier Prime',
+monospace; } 
+
+byline{
+	font-weight:700
+	text-transform:uppercase;
+}
+byline,
+credit{
+	text-transform: uppercase;
+}
