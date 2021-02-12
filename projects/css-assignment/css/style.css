@@ -11,16 +11,16 @@ h2 {
     font-family: 'Merriweather', serif;
 }
 
-byline,
-credit,
-dateline{font-family: 'Courier Prime',
+.byline,
+.credit,
+.dateline{font-family: 'Courier Prime',
 monospace; } 
 
-byline{
+.byline{
 	font-weight:700
 	text-transform:uppercase;
 }
-byline,
-credit{
+.byline,
+.credit{
 	text-transform: uppercase;
 }
