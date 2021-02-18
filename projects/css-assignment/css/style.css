@@ -15,7 +15,12 @@ div {
     font-family: 'Montserrat', sans-serif;
 }
 
-footer{
+.imagecaption {
 	font-family: 'Oswald', sans-serif;
-	font-size: 14px;
+	font-size: 12px;
+}
+
+footer {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
 }
