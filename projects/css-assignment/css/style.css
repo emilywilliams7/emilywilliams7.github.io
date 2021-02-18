@@ -1,26 +1,16 @@
-{
-    font-family: 'Courier Prime', monospace ;
- }font-family: 'Merriweather',
-serif;
-font-family: 'Courier Prime',
-monospace;
-
-h1,
-body,
-h2 {
-    font-family: 'Merriweather', serif;
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 }
 
-.byline,
-.credit,
-.dateline{font-family: 'Courier Prime',
-monospace; } 
-
-.byline{
-	font-weight:700
-	text-transform:uppercase;
+#byline,
+#creditline,
+#dateline {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
-.byline,
-.credit{
-	text-transform: uppercase;
+
+div {
+    font-family: 'Montserrat', sans-serif;
 }
