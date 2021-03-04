@@ -11,7 +11,11 @@ font-weight: bold 700;
 
 p{
 	font-family: 'Playfair Display', serif;
-	background-color: #CDE491;
+}
+
+#aboutme {
+background-color: #CDE491;
+padding-top: 3%;
 }
 
 #carouselExampleCaptions {
@@ -24,6 +28,12 @@ img.resize {
   max-width:50%;
   max-height:50%;
   border-radius: 50%;
-  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-style: solid;
+  border-color: #C2C9D3;
+  border-width: thick;
 }
 
