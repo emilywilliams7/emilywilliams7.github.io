@@ -48,6 +48,11 @@
         text-transform: uppercase;
         padding-bottom: 3%;
         font-family: 'Rubik', sans-serif;
+        border-style: solid;
+        border-color: #C2C9D3;
+        border-width: thick;
+        font-size: 20px;
+        text-align: center;
     }
 
     h3 {
@@ -58,10 +63,12 @@
     h4 {
         font-size: 14px;
         font-family: 'Rubik', sans-serif;
+        color: #CDE491;
     }
 
     p.date {
         font-size: 11px;
+        font-style: italic;
     }
 
     p.description {
