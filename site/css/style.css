@@ -14,20 +14,20 @@ p {
 }
 
 #aboutme {
-    background-color: #CDE491;
+    background-color: #C2C9D3;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 5%;
     border-width: thick;
     border-style: solid;
-    border-color: #CDE491;
+    border-color: #C2C9D3;
     text-align: center;
     font-weight: 600;
 }
 
 #carouselExampleCaptions {
     border-style: solid;
-    border-color: #C2C9D3;
+    border-color: #CDE491;
     border-width: thick;
 }
 
@@ -40,7 +40,7 @@ img.resize {
     margin-right: auto;
     width: 50%;
     border-style: solid;
-    border-color: #C2C9D3;
+    border-color: #CDE491;
     border-width: thick;
 }
 
