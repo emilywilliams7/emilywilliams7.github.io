@@ -12,3 +12,8 @@ p{
 	font-family: 'Playfair Display', serif;
 }
 
+.carousel-slide {
+	border: 7;
+	border-color: #C2C9D3;
+}
+
