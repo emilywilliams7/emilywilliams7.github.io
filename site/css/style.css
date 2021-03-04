@@ -20,4 +20,10 @@ p{
 	border-width: thick;
 }
 
+img.resize {
+  max-width:50%;
+  max-height:50%;
+  border-radius: 50%;
+  text-align: center;
+}
 
