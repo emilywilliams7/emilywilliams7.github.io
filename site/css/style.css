@@ -42,5 +42,8 @@ img.resize {
     border-style: solid;
     border-color: #CDE491;
     border-width: thick;
-}
+    }
 
+    p.contactinfo {
+     text-align: center;
+ }
