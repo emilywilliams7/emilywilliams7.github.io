@@ -6,14 +6,18 @@ h1,
 h5 {
 font-family: 'Rubik', sans-serif;
 text-align: center;
+font-weight: bold 700;
 }
 
 p{
 	font-family: 'Playfair Display', serif;
+	background-color: #CDE491;
 }
 
-.carousel-slide {
-	border: 7;
+#carouselExampleCaptions {
+	border-style: solid;
 	border-color: #C2C9D3;
+	border-width: thick;
 }
+
 
