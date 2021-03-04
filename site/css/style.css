@@ -15,7 +15,12 @@ p{
 
 #aboutme {
 background-color: #CDE491;
-padding-top: 3%;
+padding-top: 5%;
+border-radius: 5%;
+border-width: thick;
+border-style:solid;
+border-color: #CDE491;
+text-align: center;
 }
 
 #carouselExampleCaptions {
