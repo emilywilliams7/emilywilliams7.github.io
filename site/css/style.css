@@ -46,7 +46,7 @@
 
     h2 {
         text-transform: uppercase;
-        padding-bottom: 3%;
+        padding: 3%;
         font-family: 'Rubik', sans-serif;
         border-style: solid;
         border-color: #C2C9D3;
@@ -77,4 +77,5 @@
 
     #resumetitle {
         color: #CDE491;
+        padding-top: 2%;
     }
