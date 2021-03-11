@@ -22,7 +22,8 @@ p {
     border-style: solid;
     border-color: #C2C9D3;
     text-align: center;
-    font-weight: 600;
+    font-weight: 400;
+    margin-top: 3%;
 }
 
 
@@ -77,4 +78,25 @@ p.description {
 
 .carousel-caption.d-none.d-md-block {
     background-color: rgba(0,0,0,0.5);
+}
+
+a.nav-link:link
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a.nav-link:active
+{
+   color: white;
+   text-decoration: none;
 }
