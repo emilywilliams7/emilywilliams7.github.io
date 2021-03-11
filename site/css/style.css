@@ -83,13 +83,13 @@ p.description {
     font-size: 12px;
 }
 
-#resumetitle {
-    color: #CDE491;
-    padding-top: 2%;
-}
 
 .carousel-caption.d-none.d-md-block {
     background-color: rgba(0,0,0,0.5);
+}
+
+#resumetitle {
+    margin-top: 5%;
 }
 
 a.nav-link:link
