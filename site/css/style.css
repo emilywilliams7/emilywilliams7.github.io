@@ -1,6 +1,7 @@
 body {
     background-color: white;
 }
+
 .content {
     padding-top: 5%;
 }
@@ -8,12 +9,12 @@ body {
 h1 {
     font-family: 'Rubik', sans-serif;
     text-align: center;
-    font-weight: bold 700;
+    font-weight: 700;
     font-style: italic;
-    padding-bottom: 2%;
+    padding-bottom: 3%;
     color: black;
 }
-}
+
 h5 {
     font-family: 'Rubik', sans-serif;
     text-align: center;
@@ -57,7 +58,7 @@ h2 {
     padding: 3%;
     font-family: 'Rubik', sans-serif;
     border-style: solid;
-    border-color: #C2C9D3;
+    border-color: #C2E491;
     border-width: thick;
     font-size: 20px;
     text-align: center;
@@ -66,12 +67,14 @@ h2 {
 h3 {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid #CDE491;
+    display: inline;
 }
 
 h4 {
     font-size: 14px;
     font-family: 'Rubik', sans-serif;
-    color: #CDE491;
+    color: black;
 }
 
 p.date {
@@ -85,33 +88,27 @@ p.description {
 
 
 .carousel-caption.d-none.d-md-block {
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-#resumetitle {
-    margin-top: 5%;
-    text-align: left;
+a.nav-link:link {
+    color: white;
+    text-decoration: none;
 }
 
-a.nav-link:link
-{
-   color: white;
-   text-decoration: none;
+a.nav-link:visited {
+    color: white;
+    text-decoration: none;
 }
-a.nav-link:visited
-{
-   color: white;
-   text-decoration: none;
+
+a.nav-link:hover {
+    color: white;
+    text-decoration: none;
 }
-a.nav-link:hover
-{
-   color: white;
-   text-decoration: none;
-}
-a.nav-link:active
-{
-   color: white;
-   text-decoration: none;
+
+a.nav-link:active {
+    color: white;
+    text-decoration: none;
 }
 
 #contact {
@@ -130,7 +127,7 @@ a.nav-link:active
     background-color: #CDE491;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Playfair Display', serif;
     font-weight: 500;
 }
