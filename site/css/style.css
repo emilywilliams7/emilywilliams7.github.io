@@ -13,6 +13,9 @@ h1 {
     font-style: italic;
     padding-bottom: 3%;
     color: black;
+    font-size: 35px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
 }
 
 h5 {
