@@ -62,12 +62,12 @@ your custom style.css should always come BELOW the bootstrap css.
             </div>
             <div class="col-sm-8">
                 <h1>WORK</h1>
-                <div id="carouselExampleCaptions" class="carousel-slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
+                <div id="workCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#workCarousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#workCarousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#workCarousel" data-bs-slide-to="2"></li>
+                    </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="https://wps3.dbknews.com/uploads/2021/02/IMG_4023-768x432.jpg" class="d-block w-100" alt="School building">
@@ -91,17 +91,20 @@ your custom style.css should always come BELOW the bootstrap css.
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <a class="carousel-control-prev" href="#workCarousel" role="button" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    </a>
+                    <a class="carousel-control-next" href="#workCarousel" role="button" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    </div>
     </div>
     <!--body end-->
     <!--page contents go here-->
