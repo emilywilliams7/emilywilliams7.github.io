@@ -1,8 +1,19 @@
+body {
+    background-color: white;
+}
 .content {
     padding-top: 5%;
 }
 
-h1,
+h1 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold 700;
+    font-style: italic;
+    padding-bottom: 2%;
+    color: black;
+}
+}
 h5 {
     font-family: 'Rubik', sans-serif;
     text-align: center;
@@ -14,16 +25,17 @@ p {
 }
 
 #aboutme {
-    background-color: #C2C9D3;
+    background-color: #CDE491;
     padding-top: 3%;
     padding-bottom: 3%;
     border-radius: 5%;
     border-width: thick;
     border-style: solid;
-    border-color: #C2C9D3;
+    border-color: #CDE491;
     text-align: center;
     font-weight: 400;
     margin-top: 3%;
+    color: black;
 }
 
 
@@ -99,4 +111,20 @@ a.nav-link:active
 {
    color: white;
    text-decoration: none;
+}
+
+#contact {
+    text-align: center;
+    border: solid;
+    padding: 1%;
+    border-color: #CDE491;
+    font-weight: 500;
+}
+
+.col-xl {
+    padding-top: 3%;
+}
+
+.nav-custom {
+    background-color: #CDE491;
 }
