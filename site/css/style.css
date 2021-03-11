@@ -138,6 +138,6 @@ a.nav-link:active {
     font-style: italic;
 }
 
-a.nav-clips {
-    color: black;
+p.clips {
+   font-size: 12px; 
 }
