@@ -1,81 +1,80 @@
 .content {
     padding-top: 5%;
-    }
+}
 
-    h1,
-    h5 {
-        font-family: 'Rubik', sans-serif;
-        text-align: center;
-        font-weight: bold 700;
-    }
+h1,
+h5 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-weight: bold 700;
+}
 
-    p {
-        font-family: 'Playfair Display', serif;
-    }
+p {
+    font-family: 'Playfair Display', serif;
+}
 
-    #aboutme {
-        background-color: #C2C9D3;
-        padding-top: 3%;
-        padding-bottom: 3%;
-        border-radius: 5%;
-        border-width: thick;
-        border-style: solid;
-        border-color: #C2C9D3;
-        text-align: center;
-        font-weight: 600;
-    }
+#aboutme {
+    background-color: #C2C9D3;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 5%;
+    border-width: thick;
+    border-style: solid;
+    border-color: #C2C9D3;
+    text-align: center;
+    font-weight: 600;
+}
 
-    #carouselExampleCaptions {
-        border-style: solid;
-        border-color: #CDE491;
-        border-width: thick;
-    }
 
-    img.resize {
-        max-width: 50%;
-        max-height: 50%;
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        border-style: solid;
-        border-color: #CDE491;
-        border-width: thick;
-    }
+img.resize {
+    max-width: 50%;
+    max-height: 50%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: #CDE491;
+    border-width: thick;
+}
 
-    h2 {
-        text-transform: uppercase;
-        padding: 3%;
-        font-family: 'Rubik', sans-serif;
-        border-style: solid;
-        border-color: #C2C9D3;
-        border-width: thick;
-        font-size: 20px;
-        text-align: center;
-    }
+h2 {
+    text-transform: uppercase;
+    padding: 3%;
+    font-family: 'Rubik', sans-serif;
+    border-style: solid;
+    border-color: #C2C9D3;
+    border-width: thick;
+    font-size: 20px;
+    text-align: center;
+}
 
-    h3 {
-        font-size: 16px;
-        font-family: 'Rubik', sans-serif;
-    }
+h3 {
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+}
 
-    h4 {
-        font-size: 14px;
-        font-family: 'Rubik', sans-serif;
-        color: #CDE491;
-    }
+h4 {
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    color: #CDE491;
+}
 
-    p.date {
-        font-size: 11px;
-        font-style: italic;
-    }
+p.date {
+    font-size: 11px;
+    font-style: italic;
+}
 
-    p.description {
-        font-size: 12px;
-    }
+p.description {
+    font-size: 12px;
+}
 
-    #resumetitle {
-        color: #CDE491;
-        padding-top: 2%;
-    }
+#resumetitle {
+    color: #CDE491;
+    padding-top: 2%;
+}
+
+.carousel-caption.d-none.d-md-block {
+    background-color: rgba(0,0,0,0.5);
+}
