@@ -1,23 +1,23 @@
-
 h1 {
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-h1 span #firstline {
-	font-size: 40px;
-	font-weight: 700;
+#firstline {
+    font-size: 40px;
+    font-weight: 700;
 }
 
-h1 br #secondline {
-	font-size: 120px;
-	font-weight: 800;
-	letter-spacing: 5px;
-	line-height: 0.7;
+#secondline {
+    font-size: 120px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    line-height: 0.7;
 }
 
-h1 br #thirdline {
-	font-size: 23px;
-	font-weight: 400;
+#thirdline {
+    font-size: 23px;
+    font-weight: 400;
 }
+
