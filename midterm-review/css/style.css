@@ -38,3 +38,27 @@ h2 {
 	font-size: 17px;
 	font-weight: 600;
 }
+
+p {
+	font-family: 'Shippori Mincho B1', serif;
+	padding-left: 2%;
+	padding-right: 2%;
+	font-size: 14px;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.graybox {
+	background-color: #ededed;
+	padding: 10px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+.graybox p,
+.graybox ul { 
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif !important;
+}

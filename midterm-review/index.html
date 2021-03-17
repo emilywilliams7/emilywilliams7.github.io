@@ -49,7 +49,6 @@ your custom style.css should always come BELOW the bootstrap css.
     <span id="thirdline">
         How inclusive are beauty brands?
     </span>
-
     <p id="byline">
         <br>Story & Illustrations by Jason Li
         <br>Code by Amber Thomas
@@ -57,9 +56,11 @@ your custom style.css should always come BELOW the bootstrap css.
     </p>
 </h1>
 <!--header-->
+<div class="container content">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
 <h2>Let’s start in the US</h2>
 <!--///-->
-
 <p>Rihanna made headlines last fall when she launched Fenty Beauty, an intentionally inclusive makeup line created “so that women everywhere would be included.” Fenty’s liquid foundation product, Pro Filt’r, was so groundbreaking that it made it onto Time’s 25 Best Inventions of 2017 list. Its claim to fame: the foundation launched with 40 shades “made for women of all skin colors & undertones."</p>
 <p>But as it turns out, a few other brands had 40 or more shades too, including Make Up For Ever, who was not about to let that fact go unnoticed. Shortly after Fenty’s launch, they challenged the newcomer in an Instagram post noting that 40 shades of foundation was “nothing new” since they’ve had 40 shades since 2015.</p>
 
@@ -69,24 +70,27 @@ your custom style.css should always come BELOW the bootstrap css.
 
 
 <!--header-->
-How we measure inclusivity in a line of foundations
-<!--//-->
-
-<!--list-->
-We recorded the hexadecimal color code used to represent every available shade for a product on each brand’s website.
-Using Photoshop, we extracted the lightness values (based on the CIE Lab color model) from each color.
-We plotted these lightness values to see whether a foundation line caters toward lighter or darker skin tones.
-<!--end list-->
-
-<!--header-->
-Important disclaimer
-<!--///-->
-<p>Our measurements are a rough proxy for inclusivity. How a liquid foundation changes when it’s applied, whether it’s effective across different undertones and skin types, and how it looks after a day of wear are factors we did not account for. So please keep in mind that these findings represent only one piece of a larger story.</p>
+<div class="graybox">
+    <h3>How we measure inclusivity in a line of foundations</h3>
+    <!--//-->
+    <!--list-->
+    <ul>
+    <li>We recorded the hexadecimal color code used to represent every available shade for a product on each brand’s website.</li>
+    <li>Using Photoshop, we extracted the lightness values (based on the CIE Lab color model) from each color.</li>
+    <li>We plotted these lightness values to see whether a foundation line caters toward lighter or darker skin tones.</li>
+</ul>
+    <!--end list-->
+    <!--header-->
+    <h3>Important disclaimer</h3>
+    <!--///-->
+    <p>Our measurements are a rough proxy for inclusivity. How a liquid foundation changes when it’s applied, whether it’s effective across different undertones and skin types, and how it looks after a day of wear are factors we did not account for. So please keep in mind that these findings represent only one piece of a larger story.</p>
+</div>
 
 <!-- img 1vs-->
-    
+    <img src="images/1vs.jpg" alt="Fenty versus Make Up For Ever" class="img-fluid">
     <p>Both Fenty’s Pro Filt’r and Make Up For Ever’s Ultra HD foundation offer 40 different shades. But how inclusive are these colors? By extracting the lightness value of the color swatches on each brand’s website, we can get a better idea of whether their shades are evenly distributed or not.
 </p>
+</div>
 
 
 <!--header-->
@@ -195,6 +199,8 @@ Both Japanese and Indian beauty brands primarily cater to customers that have, o
 Additional thanks go to Ashley Kang and Kika Chatterjee for their editing assistance.
 <br>
 For class project purposes only. All credit and rights belong to The Pudding. <a href="https://pudding.cool/2018/06/makeup-shades/">Original story here</a></p>
+</div>
+</div>
 
 <!---->
     <!-- bootstrap javascript -->
