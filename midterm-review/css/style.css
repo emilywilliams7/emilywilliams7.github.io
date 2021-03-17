@@ -37,6 +37,7 @@ h2 {
 	color: #9e2009;
 	font-size: 17px;
 	font-weight: 600;
+	text-transform: uppercase;
 }
 
 p {
@@ -60,5 +61,10 @@ h3 {
 .graybox p,
 .graybox ul { 
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4 {
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
 }
