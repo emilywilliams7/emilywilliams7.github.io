@@ -74,6 +74,7 @@ ul {
     font-family: 'Shippori Mincho B1', serif;
     font-size: 14px;
 }
+
 footer {
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
@@ -84,4 +85,8 @@ a {
     text-decoration: underline;
     text-decoration-color: #9e2009;
     color: black;
+}
+
+.nav-custom {
+    background-color: white;
 }
