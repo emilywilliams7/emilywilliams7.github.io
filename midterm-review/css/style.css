@@ -5,6 +5,22 @@ h1 {
     background-color: #ededed;
 }
 
+@media (max-width: 500px) {
+    #firstline {
+        font-size: max(30px);
+        line-height: 1.2;
+    }
+
+    #secondline {
+        font-size: 60px;
+        letter-spacing: 1px;
+    }
+
+    #thirdline {
+        font-size: 13px;
+    }
+}
+
 #firstline {
     font-size: 40px;
     font-weight: 700;
