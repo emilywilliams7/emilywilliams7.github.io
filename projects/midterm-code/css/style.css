@@ -1,0 +1,15 @@
+/* Google fonts
+font-family: 'Anton', sans-serif;
+font-family: 'Nunito Sans', sans-serif; 
+
+Colors:
+Orange #fc5f1a
+Navy #010833
+Yellow #ffa500 */
+
+h1 {
+	text-transform: uppercase;
+font-family: 'Anton', sans-serif;
+}
+
+/* media queries */
