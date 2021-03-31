@@ -10,7 +10,7 @@ Yellow #ffa500 */
 h1 {
 	text-transform: uppercase;
 font-family: 'Anton', sans-serif;
-text-orientation: center;
+text-align: center;
 }
 
 /* media queries */
