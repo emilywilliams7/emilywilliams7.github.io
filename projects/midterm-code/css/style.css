@@ -49,8 +49,19 @@ p {
 
 h2 {
 	font-family: 'Anton', sans-serif;
+text-align: center;
+font-size: 70px;
+letter-spacing: 2.5px;
+padding-top-bottom: 2%;
+margin-top-bottom: 2%;
+color: #ffa500 ;
+background-color: #010833;
+}
+
+h3 {
+	font-family: 'Anton', sans-serif;
 	text-transform: uppercase;
-	text-align: center;
+	font-size: 30px;
 }
 
 #whitebox {
