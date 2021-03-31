@@ -6,11 +6,24 @@ Colors:
 Orange #fc5f1a
 Navy #010833
 Yellow #ffa500 */
-
+body {
+background-color: #fc5f1a;
+color: #010833;
+}
 h1 {
 	text-transform: uppercase;
 font-family: 'Anton', sans-serif;
 text-align: center;
+}
+#firstline,
+#thirdline {
+	font-size: 60px;
+}
+#secondline {
+	font-size: 120px;
+}
+.byline {
+	text-align: center;
 }
 
 /* media queries */
