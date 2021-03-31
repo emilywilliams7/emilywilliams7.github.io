@@ -6,39 +6,58 @@ Colors:
 Orange #fc5f1a
 Navy #010833
 Yellow #ffa500 */
-body {
-background-color: #fc5f1a;
-color: #010833;
+body
+ {
+    background-color: #fc5f1a;
+    color: #010833;
 }
+
 h1 {
-	text-transform: uppercase;
-font-family: 'Anton', sans-serif;
-text-align: center;
-padding-top: 5%;
+    text-transform: uppercase;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding-top: 5%;
 }
+
 p {
-	font-size: 18px;
-	font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+    font-family: 'Nunito Sans', sans-serif;
 }
+
 #firstline,
 #thirdline {
-	font-size: 60px;
+    font-size: 60px;
 }
+
 #secondline {
-	font-size: 120px;
+    font-size: 120px;
 }
+
 .byline {
-	text-align: center;
-	padding-top: 3%;
-	padding-bottom: 5%;
-	font-style: italic;
-	font-weight: 500px;
-line-height: 1;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1;
 }
 #graphic {
+	display: block;
 	margin: 0 auto 0 auto;
-	background-color: white;
-	align-content: center;
+
+}
+
+h2 {
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#whitebox {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin-top: 2%:;
+	margin-bottom: 2% ;
 }
 
 /* media queries */
