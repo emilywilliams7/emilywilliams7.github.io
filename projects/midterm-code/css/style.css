@@ -9,6 +9,8 @@ Yellow #ffa500 */
 body {
 background-color: #fc5f1a;
 color: #010833;
+font-weight: 500px;
+line-height: 1;
 }
 h1 {
 	text-transform: uppercase;
@@ -24,6 +26,8 @@ text-align: center;
 }
 .byline {
 	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 5%;
 }
 
 /* media queries */
