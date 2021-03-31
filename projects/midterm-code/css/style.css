@@ -37,6 +37,8 @@ line-height: 1;
 }
 #graphic {
 	margin: 0 auto 0 auto;
+	background-color: white;
+	align-content: center;
 }
 
 /* media queries */
