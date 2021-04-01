@@ -86,11 +86,18 @@ color: #ffa500;
 	font-size: 16px;
 }
 
-.credits {
-	border-top: 2px, white, solid;
-	border-width: 25%;
-	border-margin: 0 auto;
+h4 {
+	border-top: 2px white solid;
+	border-top-width: 25%;
+	margin-border-top: 0 auto;
+	font-weight: 600;
+}
+
+h4,
+#credits p {
 	font-size: 14px;
 }
+
+
 
 /* media queries */
