@@ -64,11 +64,26 @@ h3 {
 	font-size: 30px;
 }
 
-#whitebox {
-	padding-top: 5%;
-	padding-bottom: 5%;
-	margin-top: 2%:;
-	margin-bottom: 2% ;
+.whitebox {
+	padding-top-bottom: 5%;
+	margin-top-bottom: 2%;
+	background-color: white;
+}
+
+.whitebox h3 {
+	text-align: center;
+}
+
+.line1 {
+font-weight: 500;
+letter-spacing: 1.5px;
+font-size: 18px;
+color: #ffa500;
+}
+
+.line3 {
+	font-weight: 200;
+	font-size: 16px;
 }
 
 /* media queries */
