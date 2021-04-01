@@ -6,8 +6,7 @@ Colors:
 Orange #fc5f1a
 Navy #010833
 Yellow #ffa500 */
-body
- {
+body {
     background-color: #fc5f1a;
     color: #010833;
 }
@@ -41,68 +40,84 @@ p {
     font-weight: 500;
     line-height: 1;
 }
+
 #graphic {
-	display: block;
-	margin: 0 auto 0 auto;
+    display: block;
+    margin: 0 auto 0 auto;
 
 }
 
 h2 {
-	font-family: 'Anton', sans-serif;
-text-align: center;
-font-size: 70px;
-letter-spacing: 2.5px;
-padding-top-bottom: 2%;
-margin-top-bottom: 2%;
-color: #ffa500 ;
-background-color: #010833;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 70px;
+    letter-spacing: 2.5px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: #ffa500;
+    background-color: #010833;
 }
 
 h3 {
-	font-family: 'Anton', sans-serif;
-	text-transform: uppercase;
-	font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
 }
 
 .whitebox {
-	padding-top-bottom: 5%;
-	margin-top-bottom: 2%;
-	background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
 }
 
 #behindthehyphens {
-	text-align: center;
+    text-align: center;
 }
 
 .line1 {
-font-weight: 500;
-letter-spacing: 1.5px;
-font-size: 18px;
-color: #ffa500;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+    color: #ffa500;
 }
 
 .line3 {
-	font-weight: 200;
-	font-size: 16px;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+hr {
+    border-top: 2px solid white;
+    border-top-width: 25%;
+    margin: 0 auto;
 }
 
 h4 {
-	border-top: 2px white solid;
-	border-top-width: 25%;
-	margin-border-top: 0 auto;
-	font-weight: 600;
+    font-weight: 600;
+
 }
 
 h4,
 #credits p {
-	font-size: 14px;
+    font-size: 14px;
 }
 
+#credits {
+    padding-bottom: 5%;
+    padding-top: 1%;
+
+}
+
+
 a {
-	font-weight: 600;
-	color: black;
-	text-decoration: underline;
-	text-decoration-color: #ffa500;
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #ffa500;
 }
 
 
