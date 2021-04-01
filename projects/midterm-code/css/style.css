@@ -70,7 +70,7 @@ h3 {
 	background-color: white;
 }
 
-.whitebox h3 {
+#behindthehyphens {
 	text-align: center;
 }
 
@@ -84,6 +84,13 @@ color: #ffa500;
 .line3 {
 	font-weight: 200;
 	font-size: 16px;
+}
+
+.credits {
+	border-top: 2px, white, solid;
+	border-width: 25%;
+	border-margin: 0 auto;
+	font-size: 14px;
 }
 
 /* media queries */
