@@ -98,6 +98,12 @@ h4,
 	font-size: 14px;
 }
 
+a {
+	font-weight: 600;
+	color: black;
+	text-decoration: underline;
+	text-decoration-color: #ffa500;
+}
 
 
 /* media queries */
