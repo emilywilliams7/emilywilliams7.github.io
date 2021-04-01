@@ -122,3 +122,35 @@ a {
 
 
 /* media queries */
+
+@media (max-width: 576px) {
+
+    #firstline,
+    #thirdline {
+        font-size: 37px;
+    }
+
+    #secondline {
+        font-size: 85px;
+    }
+
+}
+
+@media (max-width: 576px) {
+    p {
+        font-size: 15px;
+        line-height: 1.75;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .whitebox p,
+    .whitebox ul,
+    h2,
+    h3 {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+}
