@@ -1,0 +1,10 @@
+.header {
+    position: relative;
+    opacity: 0.5;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    padding: 3%;
+}
