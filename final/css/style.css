@@ -27,7 +27,7 @@ h2 {
     font-weight: 600;
     padding: 2%;
     text-decoration: underline;
-    text-decoration-color: #013220;
+    text-decoration-color: #74B72E;
     font-size: 25px;
 }
 
@@ -44,7 +44,6 @@ p {
 footer {
     font-family: 'Nunito Sans', sans-serif;
     background-color: #013220;
-    color: white;
     font-size: 10px;
     padding: 2%;
     text-align: center;
@@ -52,4 +51,8 @@ footer {
 
 footer p {
 	color: white;
+}
+
+footer a {
+	color: #74B72E;
 }
