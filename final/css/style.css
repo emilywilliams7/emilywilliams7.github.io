@@ -22,6 +22,15 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 600;
+	padding: 2%;
+	text-decoration: underline;
+	text-decoration-color: #013220;
+	font-size: 25px;
+}
+
 p.banner-text {
     font-family: 'Nunito Sans', sans-serif;
 }
