@@ -74,7 +74,7 @@ h2 {
 .info-box {
 	background-color: #013220;
 	color: white;
-	padding-top: 3%;
+	padding: 3%;
 	font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -85,10 +85,19 @@ h4 {
 	font-size: 22px;
 }
 
-.info-box img {
-	padding: 5%;
+.caption {
+	font-size: 11px;
+	text-align: left;
+	font-family: 'Georgia';
 }
 
+.info-box a {
+	color: #74B72E;
+}
+
+#data-caption {
+text-align: left;
+}
 
 /* footer */
 
