@@ -18,6 +18,17 @@ a {
 	color: #013220;
 }
 
+.caption {
+	font-size: 11px;
+	text-align: left;
+	font-family: 'Georgia';
+}
+
+#usda-caption {
+	text-align: center;
+}
+
+
 /* banner */
 .banner-text {
     color: white;
@@ -85,18 +96,8 @@ h4 {
 	font-size: 22px;
 }
 
-.caption {
-	font-size: 11px;
-	text-align: left;
-	font-family: 'Georgia';
-}
-
 .info-box a {
 	color: #74B72E;
-}
-
-#data-caption {
-text-align: left;
 }
 
 /* footer */
