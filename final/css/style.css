@@ -123,8 +123,14 @@ footer a {
 
 /* media queries */
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
     h6 {
         border: 0px;
     }
+}
+
+@media (max-width: 768px) {
+	img {
+		padding: 3%;
+	}
 }
