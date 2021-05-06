@@ -5,6 +5,7 @@ body {
 
 h1,
 h2,
+h4,
 footer {
     font-family: 'Nunito Sans', sans-serif;
 }
@@ -67,6 +68,27 @@ h2 {
     text-decoration-color: #74B72E;
     font-size: 25px;
 }
+
+/* info box */
+
+.info-box {
+	background-color: #013220;
+	color: white;
+	padding-top: 3%;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+h4 {
+	font-weight: 700;
+	padding-bottom: 2%;
+	text-decoration: underline white solid;
+	font-size: 22px;
+}
+
+.info-box img {
+	padding: 5%;
+}
+
 
 /* footer */
 
