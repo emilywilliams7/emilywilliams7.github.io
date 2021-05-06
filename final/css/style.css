@@ -13,6 +13,10 @@ p {
     padding: 1%;
 }
 
+a {
+	color: #013220;
+}
+
 /* banner */
 .banner-text {
     color: white;
