@@ -16,6 +16,7 @@ colors:
 .navbar-brand,
 .nav-link {
 	font-family:'Nunito Sans', sans-serif;
+	font-style: normal;
 }
 
 
@@ -31,6 +32,18 @@ color: black;
 text-decoration: underline, solid;
 text-decoration-color: #E8CEBF;
 font-style: italic;
+}
+
+span {
+	font-family: 'Nunito Sans', sans-serif;
+	font-weight: 600;
+	font-style: italic;
+	letter-spacing: 2px;
+}
+
+h1 {
+	text-decoration: underline, solid;
+	text-decoration-color: #E8CEBF;
 }
 
 /* media queries */
