@@ -1,5 +1,36 @@
-p {
-    font-family: itc-american-typewriter, serif;
-    font-weight: 500;
-    font-style: normal;
+
+/* fonts and colors 
+fonts: 
+	font-family: itc-american-typewriter, serif;
+	font-family: 'Nunito Sans', sans-serif;
+colors: 
+	green: #266150
+	pink: #E8CEBF
+*/
+
+/* navbar */
+.nav-custom {
+	background-color: #266150;
 }
+
+.navbar-brand,
+.nav-link {
+	font-family:'Nunito Sans', sans-serif;
+}
+
+
+body {
+    font-family: itc-american-typewriter,serif;
+font-weight: 300;
+font-style: normal;
+    color: black;
+}
+
+a {
+color: black;
+text-decoration: underline, solid;
+text-decoration-color: #E8CEBF;
+font-style: italic;
+}
+
+/* media queries */
