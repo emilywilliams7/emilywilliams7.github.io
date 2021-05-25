@@ -27,15 +27,11 @@ colors:
 
 
 body {
-    font-family: itc-american-typewriter, serif;
-    font-weight: 350;
-    color: black;
+    font-family: dico-typewriter, mono;
+font-weight: 400;
+font-style: normal;
 }
 
-.row {
-	background-image: url("../images/edited-background");
-    background-size: cover;
-}
 
 a {
     color: black;
